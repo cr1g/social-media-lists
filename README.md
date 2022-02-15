@@ -42,7 +42,8 @@ REVERSE_PROXY_PORT=
 SECRET_KEY=
 ```
 
-In case you need a valid `.env` file: https://pastebin.com/1QT1daub.
+In case you need a valid `.env` file: https://pastebin.com/3CRgqqeK.
+
 For the next steps, the above `.env` has been used.
 
 - Start the application using docker-compose
@@ -65,4 +66,5 @@ The next endpoints are available now:
 - **Django Admin-UI** - `http://localhost/admin`
 
 **NOTE:** In the API Documentation you can find the endpoints for JWT Authentication and get an access token to gain access to all the other endpoints.
+
 **NOTE:** Given more time, a lot of things could've been improved. We're talking here about more docker-compose configurations for local environments, better security at nginx level and better documentation.
